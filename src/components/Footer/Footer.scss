@@ -1,0 +1,83 @@
+.footer {
+  padding: 5rem 0;
+  z-index: 1;
+  color: #f4f4f4;
+  text-align: left;
+  background-color: #252e37;
+  padding: 2.5rem 0;
+  position: relative;
+
+  .footer-container {
+    padding: 0 2rem;
+    width: calc(min(100%, 70.5rem));
+    margin-inline: auto;
+    position: relative;
+  }
+
+  .logo {
+    font-size: 36px;
+    color: white;
+
+    .logo-italic {
+      font-style: italic;
+      font-weight: bold;
+      color: #c95498;
+    }
+  }
+
+  .divide {
+    width: 100%;
+    height: 2px;
+    background-color: #743191;
+    margin: 2rem 0;
+    margin-top: 2.5rem;
+  }
+
+  .menu-sub-footer {
+    width: max-content;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    right: 2rem;
+  }
+
+  nav ul {
+    width: 100%;
+    font-size: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+    li {
+      width: max-content;
+      padding: 0 1em;
+      padding-left: 0;
+      color: white;
+      margin: 0.25em 1em;
+      margin-left: 0;
+      display: inline-block;
+      vertical-align: top;
+      position: relative;
+      cursor: pointer;
+
+      a {
+        color: #f4f4f4;
+        text-decoration: none;
+        font-size: 1.1rem;
+      }
+    }
+
+  }
+
+
+  .menu-sub-footer ul li:first-child::after {
+    width: 2px;
+    height: 100%;
+    content: "";
+    background-color: #f4f4f4;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}

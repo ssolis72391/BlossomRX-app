@@ -1,0 +1,23 @@
+.header {
+  background-color: #c95498;
+  box-shadow: 0 0 1rem #00000040;
+  height: auto;
+}
+
+.header-container {
+  width: calc(min(90%, 70.5rem));
+  padding: 2.25rem 4rem;
+  height: auto;
+  overflow: hidden;
+  margin-inline: auto;
+}
+
+.header .logo {
+  font-size: 36px;
+  color: white;
+
+  .logo-italic {
+    font-style: italic;
+    font-weight: bold;
+  }
+}
